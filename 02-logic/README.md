@@ -33,15 +33,15 @@
 
    Greater than:
 
-   <img src="Karnaugh1.jpg"  width=30% height=30%>
+   <img src="Karnaugh1.jpg"  width=40% height=40%>
 
    Less than:
 
-   <img src="Karnaugh2.jpg"  width=30% height=30%>
+   <img src="Karnaugh2.jpg"  width=40% height=40%>
 
 2. Mark the largest possible implicants in the K-map and according to them, write the equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   <img src="Eqn.png"  width=40% height=40%>
+   <img src="Eqn.png"  width=50% height=50%>
 
 ## 4-bit comparator
 
