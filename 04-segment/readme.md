@@ -40,22 +40,22 @@ The Nexys A7 board provides two four-digit common anode seven-segment LED displa
 
    | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
    | :-: | :-: | :-: | :-: | :-: | :-: |
-   | 0 | 0000 |  |  |  |  |
-   | 1 | 0001 |  |  |  |  |
-   | 2 |      |  |  |  |  |
-   | 3 |      |  |  |  |  |
-   | 4 |      |  |  |  |  |
-   | 5 |      |  |  |  |  |
-   | 6 |      |  |  |  |  |
-   | 7 |      |  |  |  |  |
-   | 8 | 1000 |  |  |  |  |
-   | 9 |      |  |  |  |  |
-   | A |      |  |  |  |  |
-   | b |      |  |  |  |  |
-   | C |      |  |  |  |  |
-   | d |      |  |  |  |  |
-   | E | 1110 |  |  |  |  |
-   | F | 1111 |  |  |  |  |
+   | 0 | 0000 | 1 | 0 | 0 | 0 |
+   | 1 | 0001 | 0 | 0 | 1 | 1 |
+   | 2 | 0001 | 0 | 0 | 0 | 1 |
+   | 3 | 0001 | 0 | 0 | 1 | 0 |
+   | 4 | 0001 | 0 | 0 | 0 | 1 |
+   | 5 | 0001 | 0 | 0 | 1 | 0 |
+   | 6 | 0001 | 0 | 0 | 0 | 0 |
+   | 7 | 0001 | 0 | 0 | 1 | 0 |
+   | 8 | 1000 | 0 | 0 | 0 | 1 |
+   | 9 | 0001 | 0 | 0 | 1 | 0 |
+   | A | 0001 | 0 | 1 | 0 | 0 |
+   | b | 0001 | 0 | 1 | 1 | 0 |
+   | C | 0001 | 0 | 1 | 0 | 0 |
+   | d | 0001 | 0 | 1 | 1 | 0 |
+   | E | 1110 | 0 | 1 | 0 | 0 |
+   | F | 1111 | 0 | 1 | 1 | 0 |
 
 2. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
