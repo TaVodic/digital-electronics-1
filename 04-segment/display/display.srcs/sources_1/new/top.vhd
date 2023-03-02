@@ -92,7 +92,11 @@ begin
 -- LED(7) <= WRITE YOUR CODE HERE
 
   LED(4) <= '1' when (SW = "0000") else '0';
+  
+  LED(5) <= '1' when (SW > "1001") else '0';
+  
+  LED(6) <= '1' when (SW(0) = '1') else '0';
 
-    
+  LED(7) <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 
 end architecture behavioral;
