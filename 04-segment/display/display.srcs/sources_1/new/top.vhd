@@ -91,6 +91,8 @@ begin
 -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
 -- LED(7) <= WRITE YOUR CODE HERE
 
+  LED(4) <= '1' when (SW = "0000") else '0';
+
     
 
 end architecture behavioral;
