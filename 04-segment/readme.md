@@ -31,8 +31,7 @@
 
    -- Turn LED(4) on if input value is equal to 0, ie "0000"
    -- LED(4) <= WRITE YOUR CODE HERE
-      LED(4) <= '1' when (SW = "0000") else '0';
-      
+      LED(4) <= '1' when (SW = "0000") else '0';      
    -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
    -- LED(5) <= WRITE YOUR CODE HERE
       LED(5) <= '1' when (SW > "1001") else '0';
