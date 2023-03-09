@@ -74,7 +74,7 @@ begin
     q     <= sig_q;
     q_bar <= not sig_q;
 end architecture behavioral;
-
+f
 
 architecture behavioral of jk_ff_rst is
     -- It must use this local signal instead of output ports
@@ -89,11 +89,11 @@ begin
                 if (k = '0') then
                     sig_q <= sig_q;
                 else 
-                    sig_q <= not sig_q;
+                    sig_q <= '0';
                 end if;
             else
-                if (t = '0') then
-                    sig_q <= sig_q;
+                if (k = '0') then
+                    sig_q <= '1';
                 else 
                     sig_q <= not sig_q;
                 end if;
