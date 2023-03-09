@@ -25,12 +25,12 @@ https://editor.codecogs.com/
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | ![rising](eq_uparrow.png) | 0 | 0 | 0 | 0 | Output did not change |
    | ![rising](eq_uparrow.png) | 0 | 0 | 1 | 1 | Output did not change |
-   | ![rising](eq_uparrow.png) | 0 | 1 | 0 | 1 | Reset |
-   | ![rising](eq_uparrow.png) | 0 | 1 | 0 | 1 | Reset |
-   | ![rising](eq_uparrow.png) | 1 | 0 | 1 | 0 | Set |
-   | ![rising](eq_uparrow.png) | 1 | 0 | 1 | 0 | Set |
-   | ![rising](eq_uparrow.png) | 1 | 1 | 1 | 0 | Toogle |
+   | ![rising](eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
+   | ![rising](eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
+   | ![rising](eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
+   | ![rising](eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
    | ![rising](eq_uparrow.png) | 1 | 1 | 0 | 1 | Toogle |
+   | ![rising](eq_uparrow.png) | 1 | 1 | 1 | 0 | Toogle |
 
    **T-type FF**
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |

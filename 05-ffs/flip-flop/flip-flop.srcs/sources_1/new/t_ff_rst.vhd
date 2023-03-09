@@ -74,3 +74,34 @@ begin
     q     <= sig_q;
     q_bar <= not sig_q;
 end architecture behavioral;
+
+
+architecture behavioral of jk_ff_rst is
+    -- It must use this local signal instead of output ports
+    -- because "out" ports cannot be read within the architecture
+    signal sig_q : std_logic;
+begin
+    p_jk_ff_rst : process (clk) is
+    begin
+        if rising_edge(clk) then
+
+            if (j = '0') then
+                if (k = '0') then
+                    sig_q <= sig_q;
+                else 
+                    sig_q <= not sig_q;
+                end if;
+            else
+                if (t = '0') then
+                    sig_q <= sig_q;
+                else 
+                    sig_q <= not sig_q;
+                end if;
+            end if;            
+        end if;
+    end process p_jk_ff_rst;
+
+    -- Output ports are permanently connected to local signal
+    q     <= sig_q;
+    q_bar <= not sig_q;
+end architecture behavioral;
